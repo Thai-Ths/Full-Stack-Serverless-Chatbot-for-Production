@@ -18,6 +18,15 @@ A full‑stack, serverless chatbot reference project designed for real-world pro
 - Frontend → API Gateway → Lambda (FastAPI) → S3 (conversation memory)
 - Optional custom domain and CORS settings via Terraform variables
 
+```mermaid
+flowchart LR
+  U[User/Browser] --> CF[CloudFront]
+  CF --> S3FE[S3 Static Frontend]
+  U -->|API calls| APIGW[API Gateway]
+  APIGW --> L[Lambda FastAPI]
+  L --> S3M[S3 Conversation Memory]
+```
+
 ## Tech Stack
 - Backend: FastAPI, Uvicorn, Python 3.12
 - Frontend: Next.js, React, TailwindCSS, TypeScript
