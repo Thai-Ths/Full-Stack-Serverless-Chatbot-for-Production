@@ -2,6 +2,9 @@
 
 A full‑stack, serverless chatbot reference project designed for real-world production. It brings together a FastAPI backend, a Next.js frontend, CI/CD pipelines, and Infrastructure as Code (IaC) on AWS — so you can develop, test, and deploy end‑to‑end with Terraform and GitHub Actions.
 
+<img width="1517" height="904" alt="image" src="https://github.com/user-attachments/assets/42a73a8c-ac1e-4daa-91d9-7d7757a8bdd1" />
+
+
 ## Key Features
 - Serverless backend: FastAPI running on AWS Lambda behind API Gateway (auto scale, pay‑per‑use)
 - Frontend hosting: Next.js static export to S3, served via CloudFront (fast, secure, low cost)
