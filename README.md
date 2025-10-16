@@ -130,6 +130,3 @@ The script empties relevant S3 buckets and runs `terraform destroy`.
 
 ## Costs
 - S3, CloudFront, API Gateway, Lambda, and IAM incur usage‑based costs. Destroy environments when not in use.
-
----
-If you’d like, I can extend Terraform to set `OPENAI_API_KEY` on the Lambda automatically, or add a custom domain toggle and certificate wiring.
