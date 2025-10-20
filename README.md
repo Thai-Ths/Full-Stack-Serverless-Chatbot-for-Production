@@ -1,4 +1,4 @@
-# chatbot_production
+# Full-Stack Serverless Chatbot for Production
 
 A full‑stack, serverless chatbot reference project designed for real-world production. It brings together a FastAPI backend, a Next.js frontend, CI/CD pipelines, and Infrastructure as Code (IaC) on AWS — so you can develop, test, and deploy end‑to‑end with Terraform and GitHub Actions.
 
